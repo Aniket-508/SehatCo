@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block home %}
+
+            <div class="col-md-8 mt-3 mb-3 mt-md-0">
+                <div class="card">
+                    <img src="{{ url_for('static',filename='images/Site_Images/bg-image.svg')}}" style="height: 300px;" class="card-img-top" alt="..." >
+                    <div class="card-body" >
+                      <h5 class="card-title text-center" id="infotitle">NOW YOU ARE JUST A PICTURE AWAY FROM YOUR SPECIAL RECIPE!</h5>
+                      <br>
+                      <p class="card-text" id="infobody">Upload Your Favourite Food Image<br>Our Model will predict its Food Name , Ingredients and its Recipe.</p>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div id="loading" style="display:none;" class="col-md-8">
+                <div class="loader">
+                    <div class="inner one"></div>
+                    <div class="inner two"></div>
+                    <div class="inner three"></div>
+                    <h4>Loading</h4>
+                    <h5>Kindly wait for few seconds</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    
+
+{% endblock %}

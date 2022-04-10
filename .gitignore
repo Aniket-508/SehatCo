@@ -1,0 +1,6 @@
+.venv
+.vscode
+Foodimg2Ing/__pycache__
+Foodimg2Ing/modules/__pycache__
+Foodimg2Ing/utils/__pycache__
+Foodimg2Ing/data
